@@ -28,7 +28,7 @@ Almacena todas las variables de entorno centralizadas: dominio/IP (`192.168.56.3
 * Ajusta las directivas de `php.ini` (`memory_limit = 256M`, `upload_max_filesize = 128M`, `post_max_size = 128M`, `max_input_vars = 5000`)[cite: 4].
 * Copia el archivo de configuración `conf/000-default.conf` con `AllowOverride All` y habilita los módulos `rewrite` y `headers`[cite: 5, 7].
 
-![Comprobación de PHP y extensiones](img/phpinfo.png)
+![Comprobación de PHP y extensiones](img/php.png)
 
 ### `scripts/setup_letsencrypt_https.sh`
 * Genera el certificado SSL/TLS, habilita el módulo `ssl` y el sitio `default-ssl` en Apache para servir la tienda bajo **HTTPS**.
