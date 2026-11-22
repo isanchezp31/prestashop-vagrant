@@ -6,7 +6,7 @@ Despliegue automatizado de la tienda online **PrestaShop** usando **Vagrant** y 
 
 * **`ImanolSanchezPrestashop` (`192.168.56.30`)**: Máquina virtual con **2 GB de RAM**, pila LAMP (Apache, MariaDB y PHP 8.2 con las extensiones requeridas por PrestaShop), certificado SSL/TLS y despliegue desatendido de PrestaShop mediante CLI[cite: 3, 6].
 
-![Estado de Vagrant](img/vagrant_status.png)
+![Estado de Vagrant](img/vagrantestado.png)
 
 ---
 
